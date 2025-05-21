@@ -1,0 +1,25 @@
+Okay this is where a lot of good design stuff happened. so pay careful attention. SKIP ANY VERSION UNTIL V4.5. V4.5 is essnetially is the first custom hardware worth while thing that was actually produced here. 
+
+###### What should be printed? I want to make this super simple so "V4.5 (print me)" will be the .stl file of anything you should print. ########
+
+Upgrades:
+Display System changes to a birdbath display system that relies on Sony Micro OLED Screens (more imersion and less weight, less weight, less power hungry.)
+  -Forhead front housing is actually a reasonable size and has enough space to house a buck boost converter which proves that the Li-po batteries can power the Latte panda Delta 3 which is the compute module used for this. 
+  -Li-po instead of Li-ion less energy dense but at the size we're using the li-po weighs less and takes up less space in a non weird form factor which ends up saving space. 
+  -BOHA (Back of Head Assembly), yes as in BOHA deez nuts. XD bet you didn't think you'd fall for that joke reading this. BOHA is about 20% smaller than V4.0 
+  -BMS implemented.
+
+
+Still need to work on: 
+-when printing in PLA the screws to screw in the display system seems super jank it works well with resin based printers and on stronger materials. But its too much effort this system should be plug and play. It should just work and be cheap and be amazing. The best bang for your buck. 
+    -might just scrap the display mounting all together for v5. I don't think screws and plastic with tight tolerances are the best. will consider alternatives.
+    
+-OS is still a work in progress. B
+-Buck boost is used as a power regulator of sorts for the Lithium polymer battries. First Test done, It can Run Crysis and seems to be able to run for 3-4 hours under load. thermals could be better like maybe a mini fan, but it can't be load that would be annoying, and I also can't quite seem to make it smaller at the moment.
+Balancing good battery life, computation power and size is quite difficult. 
+
+-i'd like to eventually consider product design later. I think for the time being this is the best looking design yet but I'm not a mechanical engineering major or product design so I guess I've been doing the job of multiple engineers here. 
+
+-I started looking into ways to get rid of that dump intel real sense. It's actually super nifty just also super bulky so I'm experimenting with a time of flight sensor and lidar sensors. 
+
+- I hate the battery indicator it should just be a software thing so I'm in the process of making it (its already done at the time of writing this I have to port the hardware to the OS so that the battery percent is tracked in the little battery icon in the corner of the screen)
